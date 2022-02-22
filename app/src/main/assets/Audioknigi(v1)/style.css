@@ -1,0 +1,24 @@
+.audio_row {
+  border: 1px solid black;
+  margin: 30px;
+  font-size: 20px;
+  padding: 10px;
+  display: block;
+  background-color: rgb(81, 175, 81);
+  text-align: center;
+  font-weight: bold;
+  border-radius: 50px;
+  box-shadow: 0px 0px 10px black;
+}
+.audio_row:active {
+  background-color: rgb(37, 196, 211);
+}
+.audio_form {
+  text-align: center;
+}
+.main__footer {
+}
+.audioName:visited {
+  background-color: rgb(63, 211, 37);
+  border: 1px solid rgb(155, 28, 194);
+}

@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">BokeyMobile</string>
+    <!-- Strings used for fragments for navigation -->
+
+    <string name="Audio">Аудиокниги</string>
+    <string name="Back">Назад</string>
+    <string name="QA">Вопрос-ответ</string>
+    <string name="booktry">Продлить книгу</string>
+    <string name="booking">Забронировать книгу</string>
+    <string name="reginlib">Записаться в библиотеку</string>
+    <string name="bokeymobile">BokeyMobile</string>
+    <string name="inRussian">НА РУССКОМ</string>
+    <string name="inKazakh">Қазақ тілінде</string>
+    <string name="Books">Книги</string>
+    <string name="BackTo">Артқа</string>
+    <string name="AudioBooks">Аудиокітаптар</string>
+    <string name="RegisterLib">Кітапханаға жазылу</string>
+</resources>

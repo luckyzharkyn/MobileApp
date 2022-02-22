@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_wr2"
+    tools:context=".ServiceActivity">
+
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="19dp"
+        android:layout_marginEnd="304dp"
+        android:layout_marginBottom="24dp"
+        android:background="#DBD0F1"
+        android:text="@string/BackTo"
+        android:textAlignment="center"
+        android:textColor="#194573"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:rippleColor="#A995D1" />
+
+    <Button
+        android:id="@+id/button7"
+        android:layout_width="425dp"
+        android:layout_height="52dp"
+        android:layout_marginBottom="22dp"
+        android:background="#DBD0F1"
+        android:text="@string/RegisterLib"
+        android:textAlignment="center"
+        android:textColor="#194573"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/button6"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.285"
+        app:layout_constraintStart_toStartOf="parent"
+        app:rippleColor="#A995D1" />
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="432dp"
+        android:layout_height="52dp"
+        android:layout_marginBottom="22dp"
+        android:background="#DBD0F1"
+        android:text="Сұрақ-жауап"
+        android:textAlignment="center"
+        android:textColor="#194573"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/button"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.571"
+        app:layout_constraintStart_toStartOf="parent"
+        app:rippleColor="#A995D1" />
+
+    <Button
+        android:id="@+id/button5"
+        android:layout_width="429dp"
+        android:layout_height="52dp"
+        android:layout_marginBottom="22dp"
+        android:background="#DBD0F1"
+        android:text="Кітапты ұзарту"
+        android:textAlignment="center"
+        android:textColor="#194573"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/button4"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.666"
+        app:layout_constraintStart_toStartOf="parent"
+        app:rippleColor="#A995D1" />
+
+    <Button
+        android:id="@+id/button6"
+        android:layout_width="436dp"
+        android:layout_height="52dp"
+        android:layout_marginEnd="4dp"
+        android:layout_marginBottom="22dp"
+        android:background="#DBD0F1"
+        android:text="Кітапты брондау"
+        android:textAlignment="center"
+        android:textColor="#194573"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/button5"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.413"
+        app:layout_constraintStart_toStartOf="parent"
+        app:rippleColor="#A995D1" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="436dp"
+        android:layout_height="52dp"
+        android:layout_marginBottom="22dp"
+        android:background="#DBD0F1"
+        android:text="@string/AudioBooks"
+        android:textAlignment="center"
+        android:textColor="#194573"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/button23"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.72"
+        app:layout_constraintStart_toStartOf="parent"
+        app:rippleColor="#A995D1" />
+
+    <Button
+        android:id="@+id/button23"
+        android:layout_width="436dp"
+        android:layout_height="52dp"
+        android:layout_marginBottom="20dp"
+        android:background="#DBD0F1"
+        android:text="Ойындар"
+        android:textAlignment="center"
+        android:textColor="#194573"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/button25"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.72"
+        app:layout_constraintStart_toStartOf="parent"
+        app:rippleColor="#A995D1" />
+
+    <Button
+        android:id="@+id/button25"
+        android:layout_width="436dp"
+        android:layout_height="52dp"
+        android:layout_marginBottom="20dp"
+        android:background="#DBD0F1"
+        android:text="Үйірмелер кестесі"
+        android:textAlignment="center"
+        android:textColor="#194573"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/button2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.68"
+        app:layout_constraintStart_toStartOf="parent"
+        app:rippleColor="#A995D1" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="436dp"
+        android:layout_height="52dp"
+        android:layout_marginBottom="22dp"
+        android:background="#DBD0F1"
+        android:text="Кітаптар"
+        android:textAlignment="center"
+        android:textColor="#194573"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/button3"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.52"
+        app:layout_constraintStart_toStartOf="parent"
+        app:rippleColor="#A995D1" />
+
+    <Button
+        android:id="@+id/button26"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="6dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="15dp"
+        android:background="#DBD0F1"
+        android:text="Bokey.kz"
+        android:textColor="#801234"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/button7"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <Button
+        android:id="@+id/button29"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="6dp"
+        android:layout_marginEnd="179dp"
+        android:layout_marginBottom="15dp"
+        android:background="#DBD0F1"
+        android:text="Карта"
+        android:textColor="#801234"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/button7"
+        app:layout_constraintEnd_toStartOf="@+id/button26"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <ImageView
+        android:id="@+id/imageView6"
+        android:layout_width="83dp"
+        android:layout_height="50dp"
+        android:elevation="2dp"
+        android:src="@drawable/kazcink"
+        app:layout_constraintBottom_toBottomOf="@+id/button3"
+        app:layout_constraintTop_toTopOf="@+id/button3"
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="@drawable/kazcink"
+        tools:layout_editor_absoluteX="31dp" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

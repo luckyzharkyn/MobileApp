@@ -1,0 +1,72 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <title>HTML5 Audio Player</title>
+    <style>
+        #playlist{
+            list-style: none;
+        }
+        #playlist li a{
+            color:black;
+            text-decoration: none;
+        }
+        #playlist .current-song a{
+            color:blue;
+        }
+    </style>
+    <!-- Source Code From YouTube.com/MicroTechTutorials  you may remove this message on your webpage but please do not redistribtue -->
+</head>
+<body>
+    <div class="container">
+        <div class="main">
+            <div class="main__player">
+                <audio src="" controls id="audioPlayer">
+                    Извините, ваше устройство не поддерживает HTML5!
+                </audio>
+            </div>
+            <div class="main__playlist">
+                <ul id="playlist">
+                    <li class="current-song"><a href="https://docs.google.com/uc?export=download&id=1WZMxBx7CPUehXOt5M70SEZWCMHuqAEcH">Етікші</a></li>
+                    
+                    <li><a href='https://docs.google.com/uc?export=download&id=1x-x-h_A9psDyJK1t5spzjsurJKvPLT8j'>Арыстан дертінің емі</a></li>
+                    
+                    <li><a href="https://docs.google.com/uc?export=download&id=19ErCWahqimrSMbTNkWdRoTzFiUpWUi3W">Асан қайғы</a></li>
+                    
+                    <li><a href='https://docs.google.com/uc?export=download&id=1T14zeJqKxCd2-pfo3BmKSZ-4u8w-Nbjz'>Бере білген бөле білер</a></li>
+                    
+                    <li><a href="https://docs.google.com/uc?export=download&id=1kq4RvZa_XmFlLBKEtbDudH_O-p9uLqAh">Қасқыр мен кісі</a></li>
+
+                    <li><a href='https://docs.google.com/uc?export=download&id=1Iurp70KszET4P0G6EEgPH689zgX8sM7Y'>Патша мен бұлбұл</a></li>
+                
+                    <li><a href="https://docs.google.com/uc?export=download&id=1qpa-YVwpPZ2CZGMkMrCFLH6ePwld0T_y">Түлкі мен ешкі</a></li>
+                    
+                    <li><a href='https://docs.google.com/uc?export=download&id=1dkgrMcspmk-W2F-dvyHwC8OqjtbdVEV7'>Уәзір мен шал</a></li>
+                    
+                    <li><a href="https://docs.google.com/uc?export=download&id=1Ql5E8hJK1H1rcXyqVnY1P3HW0rLaE4vY">Ұстаз бен шәкірт</a></li>
+                    
+                    <li><a href='https://docs.google.com/uc?export=download&id=1zmU00J_5HiJEu1Vay5Dh1BDH6IlDgI5H'>Жамандық неден болады</a></li>
+                    
+                    <li><a href="https://docs.google.com/uc?export=download&id=1gQzfZC3tAT6nGr4GBfb9_YnRqE2rZBvK">Мақта қыз бен мысық</a></li>
+                    
+                    <li><a href='https://docs.google.com/uc?export=download&id=1KteCLOrkNa7szYGfCmQuqZvc4mgHa2cn'>Аяз би</a></li>
+                    
+                    <li><a href="https://docs.google.com/uc?export=download&id=1jeIXPI6h7cFYpKDf87cCesGSPd85_CLY">Қазығұрт тауы</a></li>
+
+                    <li><a href="https://docs.google.com/uc?export=download&id=1Hb_k_P6gH_i3yuytc3jACEDwGPAswCGm">Толағай</a></li>
+
+                    <li><a href="https://docs.google.com/uc?export=download&id=11ae3NMaTU-80RcBNG-6IpJz7i2e1XaA5">Ер Төстік</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-2.2.0.js"></script>
+    <script src="audioPlayer.js"></script>
+    <script>
+        // loads the audio player
+        audioPlayer();
+    </script>
+</body>
+</html>

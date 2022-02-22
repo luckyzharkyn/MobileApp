@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_wr2"
+    tools:context=".ServiceActivity">
+
+    <Button
+        android:id="@+id/artka"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="19dp"
+        android:layout_marginEnd="304dp"
+        android:layout_marginBottom="24dp"
+        android:background="#DBD0F1"
+        android:text="@string/BackTo"
+        android:textAlignment="center"
+        android:textColor="#194573"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:rippleColor="#A995D1" />
+
+    <Button
+        android:id="@+id/astau"
+        android:layout_width="425dp"
+        android:layout_height="52dp"
+        android:layout_marginTop="163dp"
+        android:background="#DBD0F1"
+        android:text="Апамның астауы"
+        android:textAlignment="center"
+        android:textColor="#194573"
+
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.714"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:rippleColor="#A995D1" />
+
+    <Button
+        android:id="@+id/kaskyr"
+        android:layout_width="432dp"
+        android:layout_height="52dp"
+        android:layout_marginTop="41dp"
+        android:layout_marginBottom="162dp"
+        android:background="#DBD0F1"
+        android:text="қасқыр ұлыған түнде"
+        android:textAlignment="center"
+        android:textColor="#194573"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/artka"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.523"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/kaska"
+        app:rippleColor="#A995D1" />
+
+    <Button
+        android:id="@+id/kaska"
+        android:layout_width="429dp"
+        android:layout_height="52dp"
+        android:layout_marginTop="41dp"
+        android:background="#DBD0F1"
+        android:text="Қайдасын қасқа құлыным"
+        android:textAlignment="center"
+        android:textColor="#194573"
+
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.333"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/kere"
+        app:rippleColor="#A995D1" />
+
+    <Button
+        android:id="@+id/kere"
+        android:layout_width="436dp"
+        android:layout_height="52dp"
+        android:layout_marginTop="41dp"
+        android:layout_marginEnd="4dp"
+        android:background="#DBD0F1"
+        android:text="Атау кере"
+        android:textAlignment="center"
+        android:textColor="#194573"
+
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.448"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/astau"
+        app:rippleColor="#A995D1" />
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="186dp"
+        android:layout_height="95dp"
+        android:src="@drawable/kazcink"
+        app:layout_constraintBottom_toTopOf="@+id/astau"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/kazcink" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

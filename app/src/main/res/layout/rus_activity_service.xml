@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_wr2"
+    tools:context=".RusServiceActivity">
+
+    <Button
+        android:id="@+id/button8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="19dp"
+        android:layout_marginEnd="304dp"
+        android:layout_marginBottom="16dp"
+        android:background="#DBD0F1"
+        android:text="@string/Back"
+        android:textColor="#194573"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:rippleColor="#A995D1" />
+
+    <Button
+        android:id="@+id/button12"
+        android:layout_width="434dp"
+        android:layout_height="52dp"
+        android:layout_marginBottom="22dp"
+        android:background="#DBD0F1"
+        android:text="@string/booking"
+        android:textColor="#194573"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/button11"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.13"
+        app:layout_constraintStart_toStartOf="parent"
+        app:rippleColor="#A995D1" />
+
+    <Button
+        android:id="@+id/button10"
+        android:layout_width="527dp"
+        android:layout_height="52dp"
+        android:layout_marginBottom="22dp"
+        android:background="#DBD0F1"
+        android:text="@string/QA"
+        android:textColor="#194573"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/button14"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:rippleColor="#A995D1" />
+
+    <Button
+        android:id="@+id/button11"
+        android:layout_width="484dp"
+        android:layout_height="52dp"
+        android:layout_marginBottom="22dp"
+        android:background="#DBD0F1"
+        android:text="@string/booktry"
+        android:textColor="#194573"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/button10"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.369"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/button13"
+        android:layout_width="437dp"
+        android:layout_height="52dp"
+        android:layout_marginBottom="22dp"
+        android:background="#DBD0F1"
+        android:text="@string/reginlib"
+        android:textColor="#194573"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/button12"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.153"
+        app:layout_constraintStart_toStartOf="parent"
+        app:rippleColor="#A995D1" />
+
+    <Button
+        android:id="@+id/button9"
+        android:layout_width="566dp"
+        android:layout_height="52dp"
+        android:layout_marginBottom="22dp"
+        android:background="#DBD0F1"
+        android:text="@string/Audio"
+        android:textColor="#194573"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/button15"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.49"
+        app:layout_constraintStart_toStartOf="parent"
+        app:rippleColor="#A995D1" />
+
+    <Button
+        android:id="@+id/button15"
+        android:layout_width="566dp"
+        android:layout_height="52dp"
+        android:layout_marginBottom="22dp"
+        android:background="#DBD0F1"
+        android:text="Игры"
+        android:textColor="#194573"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/button24"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.483"
+        app:layout_constraintStart_toStartOf="parent"
+        app:rippleColor="#A995D1" />
+
+    <Button
+        android:id="@+id/button24"
+        android:layout_width="565dp"
+        android:layout_height="52dp"
+        android:layout_marginBottom="20dp"
+        android:background="#DBD0F1"
+        android:text="Расписание кружков"
+        android:textColor="#194573"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/button8"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.487"
+        app:layout_constraintStart_toStartOf="parent"
+        app:rippleColor="#A995D1" />
+
+    <Button
+        android:id="@+id/button14"
+        android:layout_width="566dp"
+        android:layout_height="52dp"
+        android:layout_marginBottom="22dp"
+        android:background="#DBD0F1"
+        android:text="@string/Books"
+        android:textColor="#194573"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/button9"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:rippleColor="#A995D1" />
+
+    <Button
+        android:id="@+id/button27"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="15dp"
+        android:background="#DBD0F1"
+        android:text="Bokey.kz"
+        android:textColor="#801234"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/button13"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/button30"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="13dp"
+        android:layout_marginEnd="188dp"
+        android:layout_marginBottom="15dp"
+        android:background="#DBD0F1"
+        android:text="Карта"
+        android:textColor="#801234"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/button13"
+        app:layout_constraintEnd_toStartOf="@+id/button27"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="83dp"
+        android:layout_height="50dp"
+        android:elevation="2dp"
+        android:src="@drawable/kazcink"
+        app:layout_constraintBottom_toBottomOf="@+id/button9"
+        app:layout_constraintTop_toTopOf="@+id/button9"
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="@drawable/kazcink"
+        tools:layout_editor_absoluteX="39dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

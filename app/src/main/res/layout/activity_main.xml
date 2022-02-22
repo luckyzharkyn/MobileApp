@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/ImageView"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_wr2"
+    android:visibility="visible"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="346dp"
+        android:layout_height="71dp"
+        android:text="@string/bokeymobile"
+        android:textAlignment="center"
+        android:textColor="#194573"
+        android:textSize="42sp"
+        android:textStyle="bold"
+        android:typeface="serif"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.051" />
+
+    <Button
+        android:id="@+id/kazbutton"
+        style="@style/Widget.MaterialComponents.Button"
+        android:layout_width="156dp"
+        android:layout_height="48dp"
+
+        android:layout_marginStart="130dp"
+        android:layout_marginTop="72dp"
+        android:layout_marginEnd="125dp"
+        android:background="#B4B9DC"
+        android:foregroundTint="#8E5F5F"
+        android:text="@string/inKazakh"
+        android:textColor="#194573"
+        android:textColorHint="#CCC7C7"
+        android:textSize="13sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView2"
+        app:rippleColor="#732020" />
+
+    <Button
+        android:id="@+id/rusbutton"
+        style="@style/Widget.MaterialComponents.Button"
+
+        android:layout_width="156dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="130dp"
+        android:layout_marginEnd="125dp"
+        android:layout_marginBottom="92dp"
+        android:background="#B4B9DC"
+        android:foregroundTint="#8E5F5F"
+        android:text="@string/inRussian"
+        android:textColor="#194573"
+        android:textSize="13sp"
+        android:textStyle="bold"
+        android:visibility="visible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:visibility="visible" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="228dp"
+        android:layout_height="250dp"
+        android:layout_marginStart="91dp"
+        android:layout_marginTop="45dp"
+        android:layout_marginEnd="92dp"
+        android:contentDescription="TODO"
+        android:src="@drawable/bqr"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView" />
+
+    <androidx.constraintlayout.helper.widget.Layer
+        android:id="@+id/layer"
+        android:layout_width="250dp"
+        android:layout_height="249dp"
+        android:layout_marginStart="91dp"
+        android:layout_marginTop="44dp"
+        android:layout_marginEnd="92dp"
+        android:layout_marginBottom="72dp"
+        app:constraint_referenced_ids="imageView2"
+        app:layout_constraintBottom_toTopOf="@+id/kazbutton"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
