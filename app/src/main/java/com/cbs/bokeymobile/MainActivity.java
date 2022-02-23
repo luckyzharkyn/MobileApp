@@ -6,6 +6,8 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 
+import com.cbs.bokeymobile.bokeymobile.UpdateActivity;
+
 public class MainActivity extends Activity {
 
     @Override
@@ -15,7 +17,7 @@ public class MainActivity extends Activity {
 
         Button swith = (Button)findViewById(R.id.kazbutton);
         Button swith2 = (Button)findViewById(R.id.rusbutton);
-        Button swith3 = (Button)findViewById(R.id.rusbutton);
+        Button swith3 = (Button)findViewById(R.id.updateApp);
 
         swith.setOnClickListener(new View.OnClickListener() {
 
@@ -40,7 +42,7 @@ public class MainActivity extends Activity {
             @Override
             public void onClick(View v) {
                 // TODO Auto-generated method stub
-                Intent SecAct3 = new Intent(getApplicationContext(), RusServiceActivity.class);
+                Intent SecAct3 = new Intent(getApplicationContext(), UpdateActivity.class);
                 startActivity(SecAct3);
             }
         });
