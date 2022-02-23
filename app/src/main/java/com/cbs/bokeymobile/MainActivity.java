@@ -15,6 +15,7 @@ public class MainActivity extends Activity {
 
         Button swith = (Button)findViewById(R.id.kazbutton);
         Button swith2 = (Button)findViewById(R.id.rusbutton);
+        Button swith3 = (Button)findViewById(R.id.rusbutton);
 
         swith.setOnClickListener(new View.OnClickListener() {
 
@@ -32,6 +33,15 @@ public class MainActivity extends Activity {
                 // TODO Auto-generated method stub
                 Intent SecAct2 = new Intent(getApplicationContext(), RusServiceActivity.class);
                 startActivity(SecAct2);
+            }
+        });
+        swith3.setOnClickListener(new View.OnClickListener() {
+
+            @Override
+            public void onClick(View v) {
+                // TODO Auto-generated method stub
+                Intent SecAct3 = new Intent(getApplicationContext(), RusServiceActivity.class);
+                startActivity(SecAct3);
             }
         });
     }
