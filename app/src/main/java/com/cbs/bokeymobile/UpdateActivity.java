@@ -1,4 +1,4 @@
-package com.cbs.bokeymobile.bokeymobile;
+package com.cbs.bokeymobile;
 
 import android.app.Activity;
 import android.graphics.PixelFormat;
@@ -8,10 +8,9 @@ import android.view.WindowManager;
 import android.webkit.WebSettings;
 import android.webkit.WebView;
 
-import com.cbs.bokeymobile.R;
-
 public class UpdateActivity extends Activity {
     WebView webView;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -21,10 +20,11 @@ public class UpdateActivity extends Activity {
         setContentView(R.layout.webview_page);
         webView = (WebView) findViewById(R.id.activity_main_webview);
         initWebViewSettings();
-       webView.loadUrl("https://play.google.com/store/apps/details?id=com.cbs.bokeymobile");
+        webView.loadUrl("https://play.google.com/store/apps/details?id=com.cbs.bokeymobile");
 
         //webView.loadUrl("https://www.google.com/maps/d/u/0/viewer?mid=11FaGVvQewJnrkNScQHxDiWqwm1I4uIYx&ll=50.104980873028%2C52.10903070391922&z=3");
     }
+
     private void initWebViewSettings() {
         WebSettings webSetting = webView.getSettings();
         webSetting.setJavaScriptEnabled(true);
