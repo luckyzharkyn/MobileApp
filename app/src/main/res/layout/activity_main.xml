@@ -25,6 +25,7 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.051" />
 
+
     <Button
         android:id="@+id/kazbutton"
         style="@style/Widget.MaterialComponents.Button"
@@ -32,7 +33,6 @@
         android:layout_height="48dp"
 
         android:layout_marginStart="130dp"
-        android:layout_marginTop="48dp"
         android:layout_marginEnd="125dp"
         android:background="#B4B9DC"
         android:foregroundTint="#8E5F5F"
@@ -41,6 +41,7 @@
         android:textColorHint="#CCC7C7"
         android:textSize="13sp"
         android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/rusbutton"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
@@ -54,7 +55,6 @@
         android:layout_width="156dp"
         android:layout_height="48dp"
         android:layout_marginStart="130dp"
-        android:layout_marginTop="44dp"
         android:layout_marginEnd="125dp"
         android:background="#B4B9DC"
         android:foregroundTint="#8E5F5F"
@@ -63,34 +63,11 @@
         android:textSize="13sp"
         android:textStyle="bold"
         android:visibility="visible"
-        app:layout_constraintBottom_toTopOf="@+id/kazbutton"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/updateApp"
-        app:layout_constraintVertical_bias="0.571"
-        tools:visibility="visible" />
-
-    <Button
-        android:id="@+id/updateApp"
-        style="@style/Widget.MaterialComponents.Button"
-
-        android:layout_width="156dp"
-        android:layout_height="48dp"
-        android:layout_marginStart="130dp"
-        android:layout_marginEnd="125dp"
-        android:background="#B4B9DC"
-        android:foregroundTint="#8E5F5F"
-        android:text="Обновить приложение"
-        android:textColor="#194573"
-        android:textSize="13sp"
-        android:textStyle="bold"
-        android:visibility="visible"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/rusbutton"
+        app:layout_constraintTop_toBottomOf="@+id/imageView2"
         tools:visibility="visible" />
 
     <ImageView
