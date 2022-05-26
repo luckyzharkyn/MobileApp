@@ -24,6 +24,29 @@ public class ServiceActivity extends Activity {
         Button kruzhok = (Button)findViewById(R.id.button25) ;
         Button site = (Button)findViewById(R.id.button26);
         Button map = (Button)findViewById(R.id.button29);
+        Button podcastKaz1 = (Button)findViewById(R.id.button33);
+        Button podcastRus = (Button)findViewById(R.id.button31);
+
+        podcastKaz1.setOnClickListener(new OnClickListener() {
+
+            @Override
+            public void onClick(View v) {
+                // TODO Auto-generated method stub
+                Intent StartAct = new Intent(getApplicationContext(), podcastKaz.class);
+                startActivity(StartAct);
+            }
+        });
+
+        podcastRus.setOnClickListener(new OnClickListener() {
+
+            @Override
+            public void onClick(View v) {
+                // TODO Auto-generated method stub
+                Intent StartAct = new Intent(getApplicationContext(), podcastRUS.class);
+                startActivity(StartAct);
+            }
+        });
+
         back.setOnClickListener(new OnClickListener() {
 
             @Override
@@ -124,4 +147,6 @@ public class ServiceActivity extends Activity {
             }
         });
     }
+
+
 }
