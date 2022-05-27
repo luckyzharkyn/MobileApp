@@ -24,6 +24,18 @@ public class RusServiceActivity extends Activity {
         Button kruzhok2 = (Button)findViewById(R.id.button24);
         Button site = (Button)findViewById(R.id.button27) ;
         Button map = (Button)findViewById(R.id.button30);
+        Button podcastRus1 = (Button)findViewById(R.id.button31);
+
+        podcastRus1.setOnClickListener(new OnClickListener() {
+
+            @Override
+            public void onClick(View v) {
+                // TODO Auto-generated method stub
+                Intent StartAct = new Intent(getApplicationContext(), PodcastRUSActivity.class);
+                startActivity(StartAct);
+            }
+        });
+
         back.setOnClickListener(new OnClickListener() {
 
             @Override

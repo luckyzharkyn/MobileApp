@@ -97,11 +97,11 @@
             android:name=".AudioCategoryActivity"
             android:label="RusService Activity" />
         <activity
-            android:name=".podcastKaz"
-            android:label="podcastKaz Activity" />
+            android:name=".PodcastKazActivity"
+            android:label="PodcastKaz Activity" />
         <activity
-            android:name=".podcastRUS"
-            android:label="podcastRUS Activity" />
+            android:name=".PodcastRUSActivity"
+            android:label="PodcastRUS Activity" />
         <activity
             android:name="com.cbs.bokeymobile.bokeymobile.BaylykActivity"
             android:label="RusRegister Activity" />

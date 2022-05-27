@@ -8,7 +8,7 @@ import android.view.WindowManager;
 import android.webkit.WebSettings;
 import android.webkit.WebView;
 
-public class podcastKaz extends Activity {
+public class PodcastKazActivity extends Activity {
     WebView webView;
     @Override
     protected void onCreate(Bundle savedInstanceState) {

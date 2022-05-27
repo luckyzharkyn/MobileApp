@@ -158,9 +158,7 @@
         android:id="@+id/button26"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="6dp"
         android:layout_marginEnd="16dp"
-        android:layout_marginBottom="15dp"
         android:background="#DBD0F1"
         android:text="Bokey.kz"
         android:textColor="#801234"
@@ -168,26 +166,21 @@
         app:layout_constraintBottom_toTopOf="@+id/button7"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.0" />
+        app:layout_constraintVertical_bias="0.285" />
 
     <Button
         android:id="@+id/button29"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="15dp"
-        android:layout_marginTop="6dp"
-        android:layout_marginEnd="179dp"
-        android:layout_marginBottom="15dp"
+        android:layout_marginStart="16dp"
         android:background="#DBD0F1"
         android:text="Карта"
         android:textColor="#801234"
         android:textStyle="bold"
         app:layout_constraintBottom_toTopOf="@+id/button7"
-        app:layout_constraintEnd_toStartOf="@+id/button26"
-        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.0" />
+        app:layout_constraintVertical_bias="0.285" />
 
     <Button
         android:id="@+id/button33"
@@ -199,10 +192,11 @@
         android:textStyle="bold"
         app:layout_constraintBottom_toTopOf="@+id/button7"
         app:layout_constraintEnd_toStartOf="@+id/button26"
-        app:layout_constraintHorizontal_bias="0.62"
+        app:layout_constraintHorizontal_bias="0.487"
         app:layout_constraintStart_toEndOf="@+id/button29"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.285" />
+        app:layout_constraintVertical_bias="0.285"
+        tools:ignore="MissingConstraints" />
 
     <ImageView
         android:id="@+id/imageView6"
@@ -214,6 +208,7 @@
         app:layout_constraintTop_toTopOf="@+id/button3"
         app:layout_constraintVertical_bias="0.0"
         app:srcCompat="@drawable/kazcink"
+        tools:ignore="MissingConstraints"
         tools:layout_editor_absoluteX="31dp" />
 
 
