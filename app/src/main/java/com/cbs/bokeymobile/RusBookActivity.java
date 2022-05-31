@@ -24,7 +24,7 @@ public class RusBookActivity extends Activity {
     }
     private void initWebViewSettings() {
         WebSettings webSetting = webView.getSettings();
-        webSetting.setJavaScriptEnabled(true);
+        webSetting.setJavaScriptEnabled(false);
         webSetting.setJavaScriptCanOpenWindowsAutomatically(true);
         webSetting.setPluginState(WebSettings.PluginState.ON);
         webSetting.setAllowFileAccess(true);
@@ -46,9 +46,9 @@ public class RusBookActivity extends Activity {
         webSetting.setCacheMode(WebSettings.LOAD_NO_CACHE);
         //Newly added
         if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.JELLY_BEAN) {
-            webSetting.setAllowUniversalAccessFromFileURLs(true);
+            webSetting.setAllowUniversalAccessFromFileURLs(false);
         }
-        webSetting.setAllowFileAccessFromFileURLs(true);
-        webSetting.setAllowUniversalAccessFromFileURLs(true);
+        webSetting.setAllowFileAccessFromFileURLs(false);
+        webSetting.setAllowUniversalAccessFromFileURLs(false);
     }
 }
